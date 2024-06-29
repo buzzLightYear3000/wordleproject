@@ -1,0 +1,79 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 90px;
+    margin: 15px 0px 50px 0px;
+}
+
+#flexparent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#guesscountrestart {
+    display: flex;
+    gap: 16px;
+    height: 30px;
+    width: 145px;
+}
+
+#guesscountmessage {
+ margin: 5px 0px 5px 0px;   
+}
+
+#restart {
+
+    background-color:grey;
+    border:  2px solid grey;
+    padding: 2px 2px 2px 2px;
+}
+
+#guess {
+    padding:10px;
+    border: 0.5px solid grey
+
+}
+
+#submbutton {
+    background-color:grey;
+    border:  2px solid grey;
+    padding: 10px;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 5px;
+}
+
+.ltr {
+    width: 18.3%;
+    aspect-ratio: 1 / 1;
+    border: 0.2px solid grey;
+    font-size: 35px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+}
+
+.lettersused {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 500px;
+}
+
+.letterbox {
+        list-style-type: none;
+}
